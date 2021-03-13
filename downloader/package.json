@@ -1,0 +1,18 @@
+{
+  "name": "downloader",
+  "version": "1.0.0",
+  "description": "To download a video descriptions + metadata after a date channel, run the following command:",
+  "main": "aggregate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "node-fetch": "^2.6.1",
+    "youtube-search-api": "^1.0.10",
+    "yt-channel-info": "^1.3.0"
+  }
+}
