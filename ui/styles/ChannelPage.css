@@ -1,0 +1,20 @@
+.channelPage__banner {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.channelPage__userTitle {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.video__title {
+  padding-left: 20px;
+  font-size: 24px;
+}
