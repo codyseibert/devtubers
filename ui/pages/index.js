@@ -1,5 +1,5 @@
 import Head from "next/head";
-import channels from "../../downloader/channels.json";
+import channels from "../data/channels.json";
 import { useEffect, useMemo, useState } from "react";
 
 const channelTags = {};

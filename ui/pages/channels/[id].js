@@ -1,4 +1,4 @@
-import channels from "../../../downloader/channels.json";
+import channels from "../../data/channels.json";
 import { useEffect, useMemo, useState } from "react";
 import { ChannelFilter } from "../../components/ChannelFilter";
 
