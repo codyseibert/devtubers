@@ -1,6 +1,15 @@
+.channelPage {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
 .channelPage__banner {
   width: 100%;
   margin-bottom: 20px;
+}
+
+.channelPage__inner {
+  padding: 40px;
 }
 
 .channelPage__userTitle {
@@ -17,4 +26,8 @@
 .video__title {
   padding-left: 20px;
   font-size: 24px;
+}
+
+.channelPageWrapper {
+  display: flex;
 }

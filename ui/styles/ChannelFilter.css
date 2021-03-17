@@ -1,0 +1,46 @@
+.channelFilterPanel {
+  width: 700px;
+  background: #aad4f5;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.channelFilterPanel__title {
+  font-size: 24px;
+  color: #666;
+  font-weight: normal;
+}
+
+.channelFilterPanel__search {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px;
+  color: #666;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.channelFilterPanel__channel {
+  height: 70px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.channelFilterPanel__channel:hover {
+  background: white;
+}
+
+.channelFilterPanel__thumbnail {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
