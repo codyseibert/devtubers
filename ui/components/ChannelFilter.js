@@ -14,11 +14,13 @@ export const ChannelFilter = ({ channels }) => {
 
   return (
     <div className="channelFilterPanel">
-      <h1 className="channelFilterPanel__title">Filter Channels</h1>
-      <input
-        onChange={(e) => setSearch(e.target.value)}
-        className="channelFilterPanel__search"
-      />
+      <div className="channelFilterPanel_searchPanel">
+        <h1 className="channelFilterPanel__title">Filter Channels</h1>
+        <input
+          onChange={(e) => setSearch(e.target.value)}
+          className="channelFilterPanel__search"
+        />
+      </div>
 
       <div className="channelFilterPanel__channelList">
         {getFilteredChannels().map((channel) => (

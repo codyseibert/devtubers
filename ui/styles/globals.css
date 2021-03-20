@@ -1,6 +1,11 @@
-@import "Home.css";
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap";
 @import "ChannelPage.css";
 @import "ChannelFilter.css";
+@import "WatchPanel.css";
+
+:root {
+  --light-blue: #63a6d3;
+}
 
 html,
 body {
@@ -9,8 +14,15 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background: #eee;
+  font-family: "Open Sans", sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: var(--light-blue);
+  cursor: pointer;
+  display: inline-block;
 }

@@ -1,11 +1,14 @@
 .channelFilterPanel {
-  width: 700px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 25em;
+
   background: #aad4f5;
   height: 100vh;
-  padding-left: 20px;
-  padding-right: 20px;
   overflow-y: scroll;
   overflow-x: hidden;
+  box-shadow: 2px 0px 3px #666;
+  z-index: 2;
 }
 
 .channelFilterPanel__title {
@@ -27,12 +30,19 @@
   margin-bottom: 20px;
 }
 
+.channelFilterPanel_searchPanel {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .channelFilterPanel__channel {
   height: 70px;
   font-size: 24px;
   display: flex;
   align-items: center;
   cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .channelFilterPanel__channel:hover {
@@ -41,6 +51,5 @@
 
 .channelFilterPanel__thumbnail {
   width: 60px;
-  height: 60px;
   margin-right: 20px;
 }
