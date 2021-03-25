@@ -2,9 +2,12 @@
 @import "ChannelPage.css";
 @import "ChannelFilter.css";
 @import "WatchPanel.css";
+@import "SideNavigation.css";
 
 :root {
   --light-blue: #63a6d3;
+  --dark-blue: #2368a2;
+  --darkest-blue: #1a4971;
 }
 
 html,
@@ -25,4 +28,8 @@ a {
   color: var(--light-blue);
   cursor: pointer;
   display: inline-block;
+}
+
+.pageWrapper {
+  display: flex;
 }

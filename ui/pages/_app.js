@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import { SideNavigation } from "../components/SideNavigation";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <div className="pageWrapper">
+      <SideNavigation />
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
-export default MyApp
+export default MyApp;
