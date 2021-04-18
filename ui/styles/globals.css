@@ -3,6 +3,8 @@
 @import "ChannelFilter.css";
 @import "WatchPanel.css";
 @import "SideNavigation.css";
+@import "VideoFilter.css";
+@import "VideosPage.css";
 
 :root {
   --light-blue: #63a6d3;
